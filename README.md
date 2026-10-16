@@ -31,6 +31,7 @@ These results are from this laptop, last checked on 16 October 2026.
 | Booting macOS | Tahoe 26.7.1, build 25G241 |
 | NVIDIA graphics acceleration | Working with the separately installed NullMoth driver setup. See the graphics note below. |
 | Internal speakers | Working. Audio still has a stability issue noted below. |
+| iMessage | Working with this machine’s own SMBIOS identity. |
 | Wired headphones | Output through the 3.5 mm jack works. |
 | Wi-Fi | Built-in AX211; AirportItlwm is enabled, itlwm is disabled. |
 | Bluetooth | Working. AirDrop does not work. |
@@ -45,6 +46,7 @@ These results are from this laptop, last checked on 16 October 2026.
 | --- | --- |
 | External displays | Not working. Individual HDMI/USB-C outputs have not been recorded separately. |
 | AirDrop | Not working. |
+| Webcam | Not working. |
 | Sleep / wake | Not working reliably. Do not rely on lid-close sleep. |
 
 ### Audio stability
@@ -53,7 +55,7 @@ Speaker output working does not mean the audio stack is stable. A captured panic
 
 ### Not tested separately
 
-Ethernet connectivity, webcam, every USB port, battery runtime, USB-C alternate modes, DRM playback, iMessage/FaceTime and Continuity features other than AirDrop have not been verified for this export. A loaded kext is not treated as proof that a device works.
+Ethernet connectivity, every USB port, battery runtime, USB-C alternate modes, DRM playback, FaceTime and Continuity features other than AirDrop have not been verified for this export. A loaded kext is not treated as proof that a device works.
 
 ## Graphics dependency
 
