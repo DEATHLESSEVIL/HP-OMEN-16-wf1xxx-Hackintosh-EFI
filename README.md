@@ -31,8 +31,13 @@ These results are from this laptop, last checked on 16 October 2026.
 | Booting macOS | Tahoe 26.7.1, build 25G241 |
 | NVIDIA graphics acceleration | Working with the separately installed NullMoth driver setup. See the graphics note below. |
 | Internal speakers | Working. Audio still has a stability issue noted below. |
-| iMessage | Working with this machine’s own SMBIOS identity. |
+| iMessage | Working with this machine’s own SMBIOS identity. Ethernet is preferred for the initial sign-in; after activation, Wi-Fi can be used. |
 | Wired headphones | Output through the 3.5 mm jack works. |
+| Ethernet | Working through the onboard Realtek controller. |
+| USB | All USB ports work for USB devices. Thunderbolt and external display support are separate. |
+| Battery indicator | Working. Battery runtime has not been measured. |
+| OMEN button | Mapped to open Omen Control. Requires the app to be installed with its background service running. |
+| AirPlay audio | Audio can be sent from a real Mac to this laptop and from this laptop to a real Mac. This does not establish AirPlay display support. |
 | Wi-Fi | Built-in AX211; AirportItlwm is enabled, itlwm is disabled. |
 | Bluetooth | Working. AirDrop does not work. |
 | Trackpad | Working through VoodooI2C/VoodooI2CHID and the 7A4C matching injector. Individual gestures have not been listed separately. |
@@ -46,6 +51,8 @@ These results are from this laptop, last checked on 16 October 2026.
 | --- | --- |
 | External displays | Not working. Individual HDMI/USB-C outputs have not been recorded separately. |
 | AirDrop | Not working. |
+| Handoff | Not working. |
+| Thunderbolt 4 | Drivers are not loaded; Thunderbolt functionality is not enabled or verified. |
 | Webcam | Not working. |
 | Sleep / wake | Not working reliably. Do not rely on lid-close sleep. |
 
@@ -55,7 +62,7 @@ Speaker output working does not mean the audio stack is stable. A captured panic
 
 ### Not tested separately
 
-Ethernet connectivity, every USB port, battery runtime, USB-C alternate modes, DRM playback, FaceTime and Continuity features other than AirDrop have not been verified for this export. A loaded kext is not treated as proof that a device works.
+Battery runtime, USB-C alternate modes, DRM playback, FaceTime and Continuity features not listed above have not been verified for this export. A loaded kext is not treated as proof that a device works.
 
 ## Graphics dependency
 
