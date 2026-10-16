@@ -1,5 +1,7 @@
 # HP OMEN 16-wf1xxx — macOS Tahoe EFI
 
+![HP OMEN running macOS Tahoe with Omen Control](https://github.com/user-attachments/assets/1c0c49a8-6968-443f-b427-76202d895aec)
+
 This is the EFI from my HP OMEN 16-wf1xxx with an i7-14650HX and RTX 4060 Laptop GPU. It boots macOS Tahoe 26.7.1. It is a record of this laptop’s setup, not a universal OMEN EFI.
 
 Download **EFI.zip** from this repository’s Releases page and extract it to get the EFI folder. `config.example.plist` is the same sanitized config, available separately for review. The serial number, MLB, UUID and ROM have been removed. Fill in your own before using it.
