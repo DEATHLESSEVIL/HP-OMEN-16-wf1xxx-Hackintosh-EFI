@@ -1,0 +1,2 @@
+d34fcbda7793ba284060f5e5fbf9a7640cb8a0eb8b72a1bd576f00e152f9cb60  EFI.zip
+f43bdca83c79c7e31bedf1956a936ac2be6042fd039a1c24ec2baee8a0387025  config.example.plist

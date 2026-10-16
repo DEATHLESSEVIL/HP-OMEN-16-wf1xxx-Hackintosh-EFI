@@ -1,0 +1,33 @@
+# Included kexts
+
+| Kext | Version | Enabled |
+| --- | --- | --- |
+| AMFIPass.kext | 1.4.1 | Yes |
+| AirportItlwm.kext | 2.4.1 | Yes |
+| AppleALC.kext | 1.9.8 | Yes |
+| BlueToolFixup.kext | 2.7.3 | Yes |
+| BrightnessKeys.kext | 1.0.4 | Yes |
+| CpuTopologyRebuild.kext | 2.0.2 | Yes |
+| IntelBTPatcher.kext | 2.5.0 | Yes |
+| IntelBluetoothFirmware.kext | 2.5.0 | Yes |
+| Lilu.kext | 1.7.3 | Yes |
+| NVMeFix.kext | 1.1.4 | Yes |
+| OmenFanBridge.kext | 0.4.0 | Yes |
+| OmenI2C-7A4C.kext | 1.0.0 | Yes |
+| OmenWMIProbe.kext | 0.1.0 | Yes |
+| RealtekRTL8111.kext | 2.4.2 | Yes |
+| RestrictEvents.kext | 1.1.7 | Yes |
+| SMCBatteryManager.kext | 1.3.9 | Yes |
+| SMCLightSensor.kext | 1.3.9 | Yes |
+| SMCProcessor.kext | 1.3.9 | Yes |
+| SMCSuperIO.kext | 1.3.9 | Yes |
+| SimpleHDA.kext | 1.0.0 | Yes |
+| USBToolBox.kext | 1.2.0 | Yes |
+| UTBDefault.kext | 1.0 | Yes |
+| VirtualSMC.kext | 1.3.9 | Yes |
+| VoodooI2C.kext | 2.9.1 | Yes |
+| VoodooI2CHID.kext | 1.0 | Yes |
+| VoodooPS2Controller.kext | 2.3.8 | Yes |
+| WhateverGreen.kext | 1.7.2 | Yes |
+| XHCI-unsupported.kext | 0.9.2 | Yes |
+| itlwm.kext | 2.3.0 | No |

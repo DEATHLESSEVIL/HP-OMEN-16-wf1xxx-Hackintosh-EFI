@@ -1,0 +1,12 @@
+.DS_Store
+._*
+*.log
+opencore-*.txt
+config.private.plist
+config.plist.*
+Backups/
+backups/
+SysReport/
+probe-reports/
+*.zip
+EFI/
